@@ -1,0 +1,9 @@
+{
+  "name": "Magic",
+  "description": "Magic Token XMC - The ultimate magical token on XRPL",
+  "ticker": "XMC",
+  "website": "https://www.magicdev.net",
+  "issuer": "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh",
+  "decimals": 6,
+  "image": "Magic.png"
+}
