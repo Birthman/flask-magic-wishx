@@ -5,5 +5,5 @@
   "website": "https://www.magicdev.net",
   "issuer": "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh",
   "decimals": 6,
-  "image": "Magic.png"
+  "image": "https://raw.githubusercontent.com/Birthman/flask-magic-wishx/blob/main/static/images/Magic.png"
 }
