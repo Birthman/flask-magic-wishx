@@ -1,6 +1,7 @@
 {
   "name": "Magic",
   "symbol": "XMC",
-  "description": "Magic is a fixed supply token on the XRP Ledger.",
-  "image": "https://raw.githubusercontent.com/Birdman/flask-magic-wishx/main/static/images/Magic.png"
+  "description": "Magic is a fixed-supply utility token on the XRPL.",
+  "image": "https://raw.githubusercontent.com/Birdman/flask-magic-wishx/main/static/images/Magic.png",
+  "website": "https://Magicdev.net"
 }
