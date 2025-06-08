@@ -1,0 +1,11 @@
+{
+  "name": "Magic",
+  "description": "Magic Token XMC - The ultimate magical token on the XRP Ledger",
+  "ticker": "XMC",
+  "website": "https://your-token-website.com",
+  "issuer": "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh",
+  "decimals": 6,
+  "totalSupply": "1000000000",
+  "transferable": true,
+  "image": "https://raw.githubusercontent.com/Birthman/flask-magic-wishx/blob/main/static/images/Magic.png"
+}
