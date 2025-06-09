@@ -1,8 +1,11 @@
 [[CURRENCIES]]
-code = "MAGIC"
-issuer = "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh"
-display_decimals = 2
-symbol = "✨"
-description = "MagicDen Token - Bringing Magic to XRPL"
-icon = "https://birthman.github.io/flask-magic-wishx/Magic.png"
+code = "Magic"
+issuer = "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh"  # Your issuer address
+display_decimals = 6  # Recommended for gaming tokens
+symbol = "XMC"  # Symbol to represent your gaming token (can be anything, like "GAME")
+description = "Magic Token - Bringing Magic to XRPL for Rewards, Purchases, and In-Game Transactions"
+icon = "https://birthman.github.io/flask-magic-wishx/Magic.png"  # Link to your logo image (make sure it's publicly accessible)
+total_supply = 1000000000  # 1 billion tokens
+fixed_supply = true  # Fixed supply; no new tokens will be created
+
 
