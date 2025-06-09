@@ -1,0 +1,8 @@
+[[CURRENCIES]]
+code = "MAGIC"
+issuer = "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh"
+display_decimals = 2
+symbol = "✨"
+description = "MagicDen Token - Bringing Magic to XRPL"
+icon = "https://birthman.github.io/flask-magic-wishx/Magic.png"
+
