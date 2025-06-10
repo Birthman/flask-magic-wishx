@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=/xrp-ledger.toml" />
-  </head>
-  <body>
-    <p>If you are not redirected, <a href="/xrp-ledger.toml">click here</a>.</p>
-  </body>
+<head>
+    <script>
+        // Redirect /.well-known/xrp-ledger.toml to /well-known/xrp-ledger.toml
+        if (window.location.pathname === '/.well-known/xrp-ledger.toml') {
+            window.location.replace('/well-known/xrp-ledger.toml');
+        }
+    </script>
+</head>
+<body>
+    <!-- Optional: Show metadata if people land here manually -->
+    <pre id="metadata"></pre>
+    <script>
+        fetch('/well-known/xrp-ledger.toml')
+            .then(res => res.text())
+            .then(data => document.getElementById('metadata').textContent = data);
+    </script>
+</body>
 </html>
-
