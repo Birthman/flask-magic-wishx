@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script>
-        // Redirect /.well-known/xrp-ledger.toml to /well-known/xrp-ledger.toml
-        if (window.location.pathname === '/.well-known/xrp-ledger.toml') {
-            window.location.replace('/well-known/xrp-ledger.toml');
-        }
-    </script>
+    <title>Token Metadata</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        pre { background: #f5f5f5; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
 </head>
 <body>
-    <!-- Optional: Show metadata if people land here manually -->
-    <pre id="metadata"></pre>
+    <h1>XRPL Token Metadata</h1>
+    
+    <!-- Main redirect logic -->
     <script>
-        fetch('/well-known/xrp-ledger.toml')
-            .then(res => res.text())
-            .then(data => document.getElementById('metadata').textContent = data);
+        // Handle the XRPL metadata redirect
+        if (window.location.pathname === '/.well-known/xrp-ledger.toml') {
+            // Use replace() to prevent back-button issues
+            window.location.replace('/well-known/xrp-ledger.toml');
+        } else {
+            // Display metadata for manual visitors
+            fetch('/well-known/xrp-ledger.toml')
+                .then(res => {
+                    if (!res.ok) throw new Error('File not found');
+                    return res.text();
+                })
+                .then(data => {
+                    document.getElementById('metadata').textContent = data;
+                })
+                .catch(err => {
+                    document.getElementById('metadata').textContent = 
+                        "Error loading token metadata.\n\n" +
+                        "Standard XRPL metadata should be available at:\n" +
+                        "/.well-known/xrp-ledger.toml";
+                });
+        }
     </script>
+
+    <!-- Metadata display area -->
+    <pre id="metadata">Loading token metadata...</pre>
+    
+    <p>This is the 404 page. If you're looking for token metadata, it should have auto-redirected you.</p>
 </body>
 </html>
