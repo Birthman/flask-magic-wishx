@@ -1,0 +1,9 @@
+[[CURRENCIES]]
+code = "XMC"
+issuer = "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh"  # Your issuer address
+display_decimals = 6  # Recommended for gaming tokens
+symbol = "🎮"  # Optional: you can keep "XMC" or use an emoji
+description = "Magic Token (XMC) - Bringing Magic to XRPL for Rewards, Purchases, and In-Game Transactions"
+icon = "https://birthman.github.io/flask-magic-wishx/Magic.png"  # Public logo URL
+total_supply = 1000000000  # 1 billion tokens
+fixed_supply = true  # No additional tokens will be minted
