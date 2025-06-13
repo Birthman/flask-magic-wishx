@@ -1,6 +1,6 @@
 [[CURRENCIES]]
 code = "XMC"
-issuer = "rG6fgCdbNDhZGJYUCqNWumXahBJcPRgpqh"  # Your issuer address
+issuer = "r4whMsANNGN3EjByC3hgfM3CgHKCEWzGkV"  # Your issuer address
 display_decimals = 6  # Recommended for gaming tokens
 symbol = "🎮"  # Optional: you can keep "XMC" or use an emoji
 description = "Magic Token (XMC) - Bringing Magic to XRPL for Rewards, Purchases, and In-Game Transactions"
