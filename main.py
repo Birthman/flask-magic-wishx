@@ -1,3 +1,4 @@
+from flask import Flask, send_from_directory
 from dotenv import load_dotenv
 load_dotenv()
 from flask import Flask
@@ -5,6 +6,10 @@ from app.routes.wish import wish_bp
 from app.routes.metadata import metadata_bp  # <-- Add this line
 
 app = Flask(__name__, template_folder="templates")
+@app.route('/xrp-ledger.toml')
+def serve_toml():
+    return send_from_directory('.', 'xrp-ledger.toml')
+
 
 app.register_blueprint(wish_bp)
 app.register_blueprint(metadata_bp)  # <-- And this line
