@@ -4,6 +4,7 @@
   "ticker": "JIN",
   "website": "https://magicdev.net",
   "issuer": "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY",
+  "distributor": "rspPBcNoQnABaBGC96TPwCXTWXuykjEV3q",
   "decimals": 6,
   "totalSupply": "1000000000",
   "transferable": true,
