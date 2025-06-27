@@ -1,19 +1,12 @@
-[[ISSUERS]]
-address = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
+{
+  "name": "Magic",
+  "description": "Magic Token XMC - The ultimate magical token on the XRP Ledger",
+  "ticker": "XMC",
+  "website": "https://magicdev.net",
+  "issuer": "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY",
+  "decimals": 6,
+  "totalSupply": "1000000000",
+  "transferable": true,
+  "image": "https://flask-magic-wishx.onrender.com/static/images/Magic.png"
+}
 
-[[ISSUERS.TOKENS]]
-currency = "JIN"
-issuer = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
-name = "Magic Token JIN"
-desc = "Magic Token JIN - The ultimate magical token on the XRP Ledger"
-icon = "https://flask-magic-wishx.onrender.com/static/images/Magic.png"
-
-[[ISSUERS.TOKENS.WEBLINKS]]
-url = "https://magicdev.net"
-type = "website"
-title = "Magic Dev Website"
-
-[[ISSUERS.TOKENS.WEBLINKS]]
-url = "https://raw.githubusercontent.com/Birthman/flask-magic-wishx/main/static/metadata/xmc.json"
-type = "metadata"
-title = "Token Metadata JSON"
