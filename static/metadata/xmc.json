@@ -1,3 +1,6 @@
+[[ISSUERS]]
+address = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
+
 [[ISSUERS.TOKENS]]
 currency = "JIN"
 issuer = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
@@ -14,7 +17,3 @@ title = "Magic Dev Website"
 url = "https://raw.githubusercontent.com/Birthman/flask-magic-wishx/main/static/metadata/xmc.json"
 type = "metadata"
 title = "Token Metadata JSON"
-Metadata JSON"
-
-
-
