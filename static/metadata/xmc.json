@@ -1,10 +1,9 @@
 {
   "name": "Magic",
-  "description": "Magic Token XMC - The ultimate magical token on the XRP Ledger",
-  "ticker": "XMC",
+  "description": "Magic Token JIN - The ultimate magical token on the XRP Ledger",
+  "ticker": "JIN",
   "website": "https://magicdev.net",
   "issuer": "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY",
-  "decimals": 6,
   "totalSupply": "1000000000",
   "transferable": true,
   "image": "https://flask-magic-wishx.onrender.com/static/images/Magic.png"
