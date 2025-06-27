@@ -1,6 +1,3 @@
-[[ISSUERS]]
-address = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
-
 [[ISSUERS.TOKENS]]
 currency = "JIN"
 issuer = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
