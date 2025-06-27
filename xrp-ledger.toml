@@ -7,6 +7,7 @@ issuer = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
 name = "Magic Token JIN"
 desc = "Magic Token JIN - The ultimate magical token on the XRP Ledger"
 icon = "https://flask-magic-wishx.onrender.com/static/images/Magic.png"
+amount = "1000000000"  # This is the total supply of JIN tokens
 
 [[ISSUERS.TOKENS.WEBLINKS]]
 url = "https://magicdev.net/static/metadata/xmc.json"
@@ -17,3 +18,4 @@ title = "JIN Token Metadata JSON"
 url = "https://magicdev.net"
 type = "website"
 title = "Magic Dev Website"
+
