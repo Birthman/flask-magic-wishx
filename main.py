@@ -17,5 +17,9 @@ def serve_toml():
 app.register_blueprint(wish_bp)
 app.register_blueprint(metadata_bp)
 
+@app.route("/")
+def home():
+    return "✅ MagicDev is live! Welcome to the JIN token site."
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
