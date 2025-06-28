@@ -1,9 +1,23 @@
-[[CURRENCIES]]
-code = "XMC"
-issuer = "r4whMsANNGN3EjByC3hgfM3CgHKCEWzGkV"  # Your issuer address
-display_decimals = 6  # Recommended for gaming tokens
-symbol = "🎮"  # Optional: you can keep "XMC" or use an emoji
-description = "Magic Token (XMC) - Bringing Magic to XRPL for Rewards, Purchases, and In-Game Transactions"
-icon = "https://birthman.github.io/flask-magic-wishx/Magic.png"  # Public logo URL
-total_supply = 1000000000  # 1 billion tokens
-fixed_supply = true  # No additional tokens will be minted
+[[ACCOUNTS]]
+address = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
+
+[[ISSUERS]]
+address = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
+
+[[ISSUERS.TOKENS]]
+currency = "JIN"
+issuer = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
+name = "Magic Token JIN"
+desc = "Magic Token JIN - The ultimate magical token on the XRP Ledger"
+icon = "https://flask-magic-wishx.onrender.com/static/images/Magic.png"
+amount = "1000000000"  # This is the total supply of JIN tokens
+
+[[ISSUERS.TOKENS.WEBLINKS]]
+url = "https://magicdev.net/static/metadata/xmc.json"
+type = "metadata"
+title = "JIN Token Metadata JSON"
+
+[[ISSUERS.TOKENS.WEBLINKS]]
+url = "https://magicdev.net"
+type = "website"
+title = "Magic Dev Website"
