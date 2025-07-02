@@ -7,6 +7,7 @@ domain = "magicdev.net"
 
 [[ISSUERS]]
 address = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
+name = "Magic"
 
 [[ISSUERS.TOKENS]]
 currency = "JIN"
@@ -16,12 +17,12 @@ desc = "Magic Token JIN - The ultimate magical token on the XRP Ledger"
 icon = "https://flask-magic-wishx.onrender.com/static/images/Magic.png"
 amount = "1000000000"
 
-[[ISSUERS.TOKENS.WEBLINKS]]
+[[TOKENS.WEBLINKS]]
 url = "https://magicdev.net/static/metadata/xmc.json"
 type = "metadata"
 title = "JIN Token Metadata JSON"
 
-[[ISSUERS.TOKENS.WEBLINKS]]
+[[TOKENS.WEBLINKS]]
 url = "https://magicdev.net"
 type = "website"
 title = "Magic Dev Website"
