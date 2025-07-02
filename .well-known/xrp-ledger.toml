@@ -14,7 +14,7 @@ currency = "JIN"
 issuer = "rfr3bTEfyY14Ce7zMf9itmdttmxxHKHuCY"
 name = "Magic Token JIN"
 desc = "Magic Token JIN - The ultimate magical token on the XRP Ledger"
-icon = "https://flask-magic-wishx.onrender.com/static/images/Magic.png"
+icon = "https://magicdev.net/static/images/Magic.png"
 amount = "1000000000"
 
 [[TOKENS.WEBLINKS]]
